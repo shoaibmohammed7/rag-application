@@ -30,9 +30,9 @@ YOUTUBE_VIDEO = "ADD_YOUR_YT_VIDEO_LINK_HERE"
 ![img](https://github.com/shoaibmohammed7/rag-application/assets/55995109/f8683b2a-d96f-478f-8e8e-8ce1e6ef718a)
 
 
-#### Whisper Transcription - A component that takes the YouTube video audio and transcribes it into text using OpenAI's Whisper model.<br>
-#### OpenAI Embeddings - Converts the chunks of text into vector representations.<br>
-#### Pinecone Vector Store - Stores and retrieves document vectors, creating a searchable index.<br>
-#### Retriever - Retrieves the relevant document vectors based on the user's question.<br>
-#### StrOutputParser - Parses the model's response into a string.<br>
+ __Whisper Transcription__ - A component that takes the YouTube video audio and transcribes it into text using OpenAI's Whisper model.<br>
+__OpenAI Embeddings__ - Converts the chunks of text into vector representations.<br>
+__Pinecone Vector Store__ - Stores and retrieves document vectors, creating a searchable index.<br>
+__Retriever__ - Retrieves the relevant document vectors based on the user's question.<br>
+__StrOutputParser__ - Parses the model's response into a string.<br>
 
