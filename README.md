@@ -25,6 +25,8 @@ Update your required YouTube link in the `rag.py` file.
 ```bash
 YOUTUBE_VIDEO = "ADD_YOUR_YT_VIDEO_LINK_HERE"
 ```
-# 
 
 ## High Level overview of the system build
+
+#### Pinecode
+It is  a vector store that can handle large amounts of data and perform similarity searches at scale.
