@@ -21,7 +21,9 @@ OPENAI_API_KEY = [ENTER YOUR OPENAI API KEY HERE]
 PINECONE_API_KEY = [ENTER YOUR PINECONE API KEY HERE]
 PINECONE_API_ENV = [ENTER YOUR PINECONE API ENVIRONMENT HERE]
 ```
-Update your required youttube link in the `rag.py` file.
+Update your required YouTube link in the `rag.py` file.
 ```bash
 YOUTUBE_VIDEO = "ADD_YOUR_YT_VIDEO_LINK_HERE"
 ```
+# 
+
