@@ -1,0 +1,15 @@
+RAG application with CGT 3.5
+This is a step-by-step guide to building a simple RAG (Retrieval-Augmented Generation) application using Pinecone and OpenAI's API. The application will allow you to ask questions about any YouTube video.
+
+Setup
+Create a virtual environment and install the required packages:
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+Create a free Pinecone account and get your API key from here.
+
+Create a .env file with the following variables:
+
+OPENAI_API_KEY = [ENTER YOUR OPENAI API KEY HERE]
+PINECONE_API_KEY = [ENTER YOUR PINECONE API KEY HERE]
+PINECONE_API_ENV = [ENTER YOUR PINECONE API ENVIRONMENT HERE]
