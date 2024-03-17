@@ -32,3 +32,13 @@ YOUTUBE_VIDEO = "ADD_YOUR_YT_VIDEO_LINK_HERE"
 
 #### Pinecode
 It is  a vector store that can handle large amounts of data and perform similarity searches at scale.
+
+Whisper Transcription - A component that takes the YouTube video audio and transcribes it into text using OpenAI's Whisper model.
+Text Loader & Splitter - Loads the transcribed text and splits it into manageable chunks.
+OpenAI Embeddings - Converts the chunks of text into vector representations.
+Pinecone Vector Store - Stores and retrieves document vectors, creating a searchable index.
+Retriever - Retrieves the relevant document vectors based on the user's question.
+Prompt Template - A template to format the retrieved context with the question.
+ChatOpenAI Model - The model which takes the formatted prompt and generates a response.
+StrOutputParser - Parses the model's response into a string.
+User Interface - Where the user inputs their question and receives the response.
