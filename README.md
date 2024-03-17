@@ -11,7 +11,7 @@ $ source .venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-Create a OPENAI's API key from [here](https://platform.openai.com/api-keys).<br>
+Create an OpenAI API key from [here](https://platform.openai.com/api-keys).<br>
 Create a free Pinecone account and get your API key from [here](https://www.pinecone.io/).
 
 Create a `.env` file with the following variables:
@@ -20,4 +20,8 @@ Create a `.env` file with the following variables:
 OPENAI_API_KEY = [ENTER YOUR OPENAI API KEY HERE]
 PINECONE_API_KEY = [ENTER YOUR PINECONE API KEY HERE]
 PINECONE_API_ENV = [ENTER YOUR PINECONE API ENVIRONMENT HERE]
+```
+Update your required youttube link in the `rag.py` file.
+```bash
+YOUTUBE_VIDEO = "ADD_YOUR_YT_VIDEO_LINK_HERE"
 ```
