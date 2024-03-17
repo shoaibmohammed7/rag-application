@@ -10,6 +10,8 @@ $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
 ```
+
+Create a OPENAI's API key from [here](https://platform.openai.com/api-keys).
 Create a free Pinecone account and get your API key from [here](https://www.pinecone.io/).
 
 Create a `.env` file with the following variables:
