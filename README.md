@@ -34,5 +34,7 @@ YOUTUBE_VIDEO = "ADD_YOUR_YT_VIDEO_LINK_HERE"
 __OpenAI Embeddings__ - Converts the chunks of text into vector representations.<br>
 __Pinecone Vector Store__ - Stores and retrieves document vectors, creating a searchable index.<br>
 __Retriever__ - Retrieves the relevant document vectors based on the user's question.<br>
+__Prompt Template__ - A template to format the retrieved context with the question.<br>
+__ChatOpenAI Model__ - The model which takes the formatted prompt and generates a response.<br>
 __StrOutputParser__ - Parses the model's response into a string.<br>
 
