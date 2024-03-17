@@ -26,7 +26,7 @@ Update your required YouTube link in the `rag.py` file.
 YOUTUBE_VIDEO = "ADD_YOUR_YT_VIDEO_LINK_HERE"
 ```
 
-## High Level overview of the system build
+## High Level Overview of the System Build
 ![img](https://github.com/shoaibmohammed7/rag-application/assets/55995109/f8683b2a-d96f-478f-8e8e-8ce1e6ef718a)
 
 
